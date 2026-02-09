@@ -32,9 +32,9 @@
 }
 
 .navLinkActive {
-  color: #4ade80; /* green-400 */
+  color: #60a5fa; 
   font-weight: 700;
-  border-bottom: 2px solid #4ade80;
+  border-bottom: 2px solid #60a5fa;
   padding-bottom: 0.75rem;
   margin-bottom: -1px;
   font-size: 0.9rem;
@@ -49,11 +49,10 @@
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 2rem; 
   font-weight: 800;
   letter-spacing: -0.025em;
   margin-bottom: 0.25rem;
-  color: #4ade80;
 }
 
 .subtitle {

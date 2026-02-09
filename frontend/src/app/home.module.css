@@ -1,0 +1,142 @@
+.main {
+  min-height: 100vh;
+  background-color: #0f172a;
+  color: white;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 42rem;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #1e293b;
+  padding-bottom: 0.75rem;
+  align-items: center;
+}
+
+.navLink {
+  color: #94a3b8;
+  padding-bottom: 0.75rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.navLink:hover {
+  color: white;
+}
+
+.navLinkActive {
+  color: #60a5fa; /* blue-400 */
+  font-weight: 700;
+  border-bottom: 2px solid #60a5fa;
+  padding-bottom: 0.75rem;
+  margin-bottom: -1px;
+  font-size: 0.9rem;
+}
+
+.walletWrapper {
+  margin-left: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  color: #60a5fa;
+  text-shadow: 0 0 20px rgba(96, 165, 250, 0.3);
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 28rem;
+  background-color: #1e293b;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border: 1px solid #334155;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #94a3b8;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: #334155;
+  border: 1px solid #475569;
+  color: white;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.button {
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  font-weight: 700;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.button:hover {
+  background-color: #3b82f6;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.status {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #000000;
+  border-radius: 0.25rem;
+  border: 1px solid #14532d;
+  color: #22c55e;
+  font-size: 0.75rem;
+  font-family: monospace;
+  word-break: break-all;
+}

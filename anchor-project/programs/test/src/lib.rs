@@ -87,6 +87,6 @@ pub struct ClosePoll<'info> {
 
 #[error_code]
 pub enum MyError {
-    #[msg("Autor ankete ne može glasati u vlastitoj anketi.")]
+    #[msg("The author of the poll cannot vote.")]
     AuthorCannotVote,
 }
